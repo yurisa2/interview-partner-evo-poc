@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "675096db8ce9007611d81737_385288be-04c8-47d5-beb1-c784036cc7fc",
+  "id": "Chat with the feedback_send_chat",
+  "unpublishedCollection": {
+    "name": "send_chat",
+    "pageId": "Chat with the feedback",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

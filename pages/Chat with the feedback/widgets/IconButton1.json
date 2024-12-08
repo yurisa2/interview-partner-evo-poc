@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 69,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "send-message",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "7pke31urw8",
+  "leftColumn": 59,
+  "minWidth": 50,
+  "mobileBottomRow": 73,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 69,
+  "needsErrorInfo": false,
+  "onClick": "{{chat_with_feedback.run().then(() => {\n  send_chat.IconButton1onClick();\n});}}",
+  "parentColumnSpace": 12.3125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "topRow": 63,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "1a1lvfuxcl",
+  "widgetName": "IconButton1"
+}

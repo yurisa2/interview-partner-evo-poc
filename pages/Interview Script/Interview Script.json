@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "675096db8ce9007611d81737_c9b1be56-4519-46b9-b32e-e0f9e4c14660",
+  "gitSyncId": "675096db8ce9007611d81737_68aa7763-545b-4fd3-b025-dcf1ce3c51ec",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 650,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 790,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 77,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Load Initial Documents",
-    "slug": "load-initial-documents"
+    "name": "Interview Script",
+    "slug": "interview-script"
   }
 }

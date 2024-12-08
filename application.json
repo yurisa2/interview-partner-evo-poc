@@ -21,8 +21,20 @@
   "icon": "rainy-weather",
   "pages": [
     {
-      "id": "Load Initial Documents",
+      "id": "Initial data (JD + CV)",
       "isDefault": true
+    },
+    {
+      "id": "Interview Script",
+      "isDefault": false
+    },
+    {
+      "id": "Final feedback",
+      "isDefault": false
+    },
+    {
+      "id": "Chat with the feedback",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

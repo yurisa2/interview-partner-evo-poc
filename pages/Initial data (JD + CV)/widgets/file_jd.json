@@ -4,7 +4,7 @@
   ],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 20,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "dynamicBindingPathList": [
@@ -15,9 +15,13 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
   "dynamicTyping": true,
-  "fileDataType": "Text",
+  "fileDataType": "Binary",
   "files": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
@@ -35,16 +39,19 @@
   "mobileRightColumn": 8,
   "mobileTopRow": 15,
   "needsErrorInfo": false,
+  "onFilesSelected": "{{api_file_convert_cv.run().then(() => {\n  cv_js_actions.file_cvonFilesSelected();\n});}}",
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
   "parentColumnSpace": 17.21875,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 10,
+  "rightColumn": 16,
   "selectedFiles": [],
-  "topRow": 17,
+  "topRow": 16,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
-  "widgetId": "3ddhog6xi1",
-  "widgetName": "FilePicker1Copy"
+  "widgetId": "sh86hsk4el",
+  "widgetName": "file_jd"
 }

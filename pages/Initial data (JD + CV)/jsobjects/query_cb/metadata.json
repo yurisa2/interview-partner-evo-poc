@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "675096db8ce9007611d81737_bf2455e9-1e04-4571-a520-5b7e91106493",
+  "id": "Initial data (JD + CV)_query_cb",
+  "unpublishedCollection": {
+    "name": "query_cb",
+    "pageId": "Initial data (JD + CV)",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

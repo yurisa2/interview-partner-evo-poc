@@ -1,10 +1,8 @@
 {
-  "allowedFileTypes": [
-    "*"
-  ],
+  "allowedFileTypes": [],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 9,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "dynamicBindingPathList": [
@@ -15,7 +13,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
   "dynamicTyping": true,
   "fileDataType": "Text",
   "files": [],
@@ -24,27 +26,28 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "q42z9fezpn",
-  "label": "Select the JD File",
-  "leftColumn": 2,
+  "key": "rurf551u9h",
+  "label": "Upload transcription files",
+  "leftColumn": 1,
   "maxFileSize": 5,
   "maxNumFiles": 1,
   "minWidth": 120,
-  "mobileBottomRow": 19,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 8,
-  "mobileTopRow": 15,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "parentColumnSpace": 17.21875,
-  "parentId": "0",
+  "onFilesSelected": "{{upload_transcription_action.FilePicker1onFilesSelected();}}",
+  "parentColumnSpace": 6.9375,
+  "parentId": "2sr1sx1abx",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 10,
+  "rightColumn": 41,
   "selectedFiles": [],
-  "topRow": 2,
+  "topRow": 5,
   "type": "FILE_PICKER_WIDGET_V2",
   "version": 1,
-  "widgetId": "y7aurwugxu",
+  "widgetId": "ci50mjgmju",
   "widgetName": "FilePicker1"
 }
